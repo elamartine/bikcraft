@@ -1,0 +1,34 @@
+.conteiner-escolha {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 90px;
+  }
+  .conteiner-escolha img {
+    width: 440px;
+    height: 479px;
+    border-radius: 5px;
+  }
+  .home-bicicletas ul {
+    display: flex;
+    max-width: 1400px;
+    gap: 40px;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .conteiner-escolha h2{
+    padding-bottom: 40px;
+  }
+  .conteiner-escolha h3{
+    font-size: 32px;
+    padding: 0px 0px 8px;
+    font-family: "poppins";
+    color: var(--cor-11);
+    position: relative;
+  }
+  .conteiner-escolha a  span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "roboto";
+    color: var(--cor-8);
+  }
