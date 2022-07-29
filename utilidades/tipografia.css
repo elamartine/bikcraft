@@ -16,24 +16,46 @@
 
   .font-2-xl{
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
   }
+  .font-2-l-b{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+  .font-1-m-b{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.35;
+  }
   .font-2-m{
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.35;
   }
+  .font-2-s{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
   @media (max-width: 1000px){
     .font-1-xxl{
-      font-size: 42px;
+      font-size: 48px;
     }
   }
-  
+  @media (max-width: 800px){
+    .font-1-xxl{
+      font-size: 32px;
+    }
+  }
 
   

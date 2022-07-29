@@ -4,16 +4,11 @@ header {
   }
   
   .header {
-    max-width: 1200px;
-    height: 96px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
     flex-wrap: wrap;
-    gap: 40px;
   }
   
   .lista-header a {
@@ -66,6 +61,9 @@ header {
     .lista-header a:hover{
       background-color: #2e2e2e;
     }
+    .header img{
+      padding-bottom: 20px;
+    }
   }
   @media (max-width: 600px){
     .header ul{
@@ -74,5 +72,8 @@ header {
     .lista-header a{
       font-size: 14px;
       padding: 8px;
+    }
+    .header img{
+      padding-bottom: 30px;
     }
   }

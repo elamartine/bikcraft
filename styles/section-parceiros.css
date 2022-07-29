@@ -1,0 +1,31 @@
+.parceiros{
+  margin-top: 160px;
+}
+.lista-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lista-img li{
+  padding: 32px;
+}
+.lista-img img{
+  margin: auto;
+  height: auto;
+}
+.grup:nth-last-child(2){
+  border-right: 2px solid var(--cor-2);
+  
+}
+
+.grup:nth-last-child(3){
+  border-right: 2px solid var(--cor-2);
+  
+}
+.grup:nth-last-child(4){
+  border-right: 2px solid var(--cor-2);
+  
+}
+
+.parceiros h2{
+  margin-bottom: 60px;
+}

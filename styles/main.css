@@ -72,6 +72,12 @@ main {
     .text-main p{
       line-height: 30px;
     }
+    .text-main{
+      padding: 0px;
+    }
+    .conteiner-main{
+      padding: 20px 10px;
+    }
     
   }
   @media (max-width: 500px){
@@ -82,5 +88,7 @@ main {
     .text-main{
       padding-top: 60px;
     }
-   
+    .text-main{
+      padding: 0px;
+    }   
   }
