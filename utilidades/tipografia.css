@@ -30,7 +30,9 @@
   }
 
   @media (max-width: 1000px){
-    
+    .font-1-xxl{
+      font-size: 42px;
+    }
   }
   
 

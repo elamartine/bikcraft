@@ -72,9 +72,7 @@ main {
     .text-main p{
       line-height: 30px;
     }
-    .bnt{
-      padding: 12px 24px;
-    }
+    
   }
   @media (max-width: 500px){
     .img{
@@ -85,7 +83,4 @@ main {
       padding-top: 60px;
     }
    
-    .bnt a{
-      font-size: 14px;
-    }
   }
