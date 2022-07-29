@@ -16,3 +16,11 @@
     font-weight: 600;
     color: var(--cor-p1);
   }
+  .conteiner{
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

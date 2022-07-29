@@ -4,6 +4,9 @@
   .cinza{
     color: var(--cor-5);
   }
+  .cinza-8{
+    color: var(--cor-8);
+  }
   .background-preto{
     background-color: var(--cor-12);
   }
