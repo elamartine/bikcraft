@@ -1,6 +1,7 @@
 .parceiros {
   margin-top: 160px;
-  height: 700px;
+  margin-bottom: 160px;
+
 }
 .lista-img {
   display: grid;
@@ -52,6 +53,9 @@
        .parceiros li:nth-child(n+7) {
         border-bottom: none;
       }
-    
+      .parceiros{
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
     
   }
