@@ -1,0 +1,46 @@
+.conteiner-depoimento{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+}
+
+.section-depoimento img{
+  width: 780px;
+  height: 680px;
+  border-radius: 0px;
+  
+}
+
+.conteudo-depoimento{
+  grid-column: 2;
+  align-self: center;
+  
+}
+.section-depoimento p{
+  font-family: 'Merriweather';
+font-style: italic;
+font-weight: 900;
+font-size: 36px;
+padding: 40px 200px 40px 100px;
+justify-self: center;
+position: relative;
+}
+.conteudo-depoimento span{
+  margin-left: 100px;
+}
+
+.section-depoimento p::before{
+  content: '❝';
+  color: var(--cor-o2);
+  font-size: 72px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+.section-depoimento p::after{
+  content: "❞";
+  color: var(--cor-o2);
+  font-size: 72px;
+  position: absolute;
+
+}

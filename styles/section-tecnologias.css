@@ -43,9 +43,43 @@
   flex-direction: row;
   gap: 40px;
   margin-top: 112px;
+  text-transform: capitalize;
 }
 
 .lista-tecnologias h3{
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+@media (max-width: 1200px){
+  .lista-tecnologias ul{
+    margin-top: 80px;
+  }
+}
+
+
+@media (max-width: 800px){
+  .img-tecnologias img{
+    display: none;
+  }
+  .conteiner-tec{
+    gap: 0px;
+  }
+  .conteudo-tecnologias{
+    padding-bottom: 0px;
+    
+  }
+  .tecnologias{
+    height: auto;
+  }
+}
+@media (max-width: 600px){
+  .lista-tecnologias ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 20px;
+    margin-bottom: 70px;
+  }
+  
 }

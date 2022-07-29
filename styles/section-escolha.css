@@ -24,7 +24,7 @@
 }
 .conteiner-escolha {
   margin-top: 80px;
-  height: 1000px;
+  margin-bottom: 120px;
 }
 .lista-bicicletas h3 {
   padding-top: 20px;
@@ -53,4 +53,11 @@
 .lista-bicicletas:before:hover {
   transition: 0.3s;
   width: 17px;
+}
+
+@media (max-width: 800px){
+  .conteiner-escolha{
+      margin-bottom: 0px;
+  }
+
 }
