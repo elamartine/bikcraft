@@ -8,10 +8,16 @@
 
   .font-1-xl{
     font-family: "Poppins";
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 125%;
+  }
+  .font-1-l{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.35;
+    text-transform: uppercase;
   }
 
   .font-2-xl{
@@ -46,6 +52,7 @@
     font-size: 16px;
     line-height: 1.5;
   }
+  
 
 
   @media (max-width:1100px){  

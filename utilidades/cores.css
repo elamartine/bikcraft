@@ -20,9 +20,14 @@
   .cor-p1{
     color: var(--cor-p1);
   }  
-
+.cor-6{
+  color: var(--cor-6);
+}
   .cor-p4{
     color: var(--cor-p4);
+  }
+  .cor-10{
+    background-color: var(--cor-10);
   }
   :root {
     --cor-0: #ffffff;
