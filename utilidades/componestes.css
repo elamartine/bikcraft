@@ -41,7 +41,7 @@
   
 
   @media (max-width: 600px){
-    .bnt, .bnt-2{
+    .bnt{
       padding: 12px 16px;
       font-size: 14px;
     }

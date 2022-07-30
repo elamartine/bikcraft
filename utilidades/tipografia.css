@@ -47,7 +47,7 @@
   }
   .font-2-s{
     font-family: 'Roboto';
-    font-style: normal;
+    text-transform: lowercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
