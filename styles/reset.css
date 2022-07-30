@@ -12,7 +12,8 @@ dt,
 dd,
 ol,
 ul,
-li {
+li,
+blockquote {
   margin: 0;
   padding: 0;
 }

@@ -1,72 +1,19 @@
-.conteiner-depoimento {
+.conteiner-depoimento{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
-  gap: 60px;
 }
 
-.section-depoimento img {
+.conteiner-depoimento img{
+  border-radius: none;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 0px;
 }
 
-.conteudo-depoimento {
-  grid-column: 2;
-  align-self: center;
-  margin: 50px;
-  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 0px right
-    40px;
-}
-.section-depoimento p {
+.depoimento-conteudo{
   max-width: 32ch;
-  font-family: "Merriweather";
-  font-style: italic;
-  font-weight: 900;
-  font-size: 36px;
-  margin-bottom: 1em;
-  z-index: 0;
-  justify-self: center;
-  display: block;
-  position: relative;
-}
-
-conteiner-depoimento {
-  background-image: url("../img/dec/bottom-left.svg");
-  background-repeat: no-repeat;
-}
-
-.section-depoimento p::before {
-  content: "❝";
-  color: var(--cor-o2);
-  font-size: 72px;
-  position: absolute;
-  top: -36px;
-  left: -55px;
-}
-.section-depoimento p::after {
-  content: "❞";
-  color: var(--cor-o2);
-  font-size: 72px;
-  position: absolute;
-}
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 800px) {
-  .conteiner-depoimento {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-depoimento img {
-    max-width: 100%;
-  }
-  .section-depoimento p {
-    font-size: 24px;
-    margin: 0px;
-    padding: 20px 40px;
-    align-items: center;
-    background: none;
-  }
+  padding: 40px 40px 80px 80px;
+  align-self: end;
 }
 
