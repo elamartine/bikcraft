@@ -38,6 +38,9 @@
 .lista-footer{
   margin-top: 32px;
 }
+.lista-footer li:hover{
+  color: var(--cor-1);
+}
 
 .lista-footer li + li{
   margin-top: 10px;

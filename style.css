@@ -1,14 +1,18 @@
 /* sessões home */
-@import url("./styles/header.css");
 @import url("./styles/main.css");
 @import url("./styles/section-escolha.css");
-@import url("./styles/reset.css");
 @import url("./styles/section-tecnologias.css");
 @import url("./styles/section-parceiros.css");
 @import url("./styles/section-depoimento.css");
 @import url("./styles/section-seguro.css");
-@import url("./styles/section-footer.css");
 
+/* Termos */
+@import url("./styles/termos/termos.css");
+
+/* Global */
+@import url("./styles/global/header.css");
+@import url("./styles/global/footer.css");
+@import url("./styles/global/reset.css");
 
 /* css utilitário */
 @import url("./utilidades/componestes.css");

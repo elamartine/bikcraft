@@ -35,6 +35,9 @@
   .cor-5{
     color: var(--cor-5);
   }
+  .cor-9{
+    color: #404040;
+  }
   :root {
     --cor-0: #ffffff;
     --cor-1: #f7f7f7;

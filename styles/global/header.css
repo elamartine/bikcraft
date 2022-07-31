@@ -32,7 +32,6 @@ header {
   }
   .lista-header a:hover:after{
     width: 100%;
-
   }
   
   .header img {
@@ -58,8 +57,9 @@ header {
       background-color: var(--fundo-2);
       border-radius: 4px;
     }
-    .lista-header a:hover{
+    .lista-header a{
       background-color: #2e2e2e;
+      padding: 12px 16px;
     }
     .header img{
       padding-bottom: 20px;
