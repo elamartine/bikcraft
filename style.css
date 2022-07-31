@@ -1,10 +1,10 @@
 /* sessões home */
-@import url("./styles/main.css");
-@import url("./styles/section-escolha.css");
-@import url("./styles/section-tecnologias.css");
-@import url("./styles/section-parceiros.css");
-@import url("./styles/section-depoimento.css");
-@import url("./styles/section-seguro.css");
+@import url("./styles/home/main.css");
+@import url("./styles/home/section-escolha.css");
+@import url("./styles/home/section-tecnologias.css");
+@import url("./styles/home/section-parceiros.css");
+@import url("./styles/home/section-depoimento.css");
+@import url("./styles/home/section-seguro.css");
 
 /* Termos */
 @import url("./styles/termos/termos.css");
