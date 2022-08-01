@@ -6,6 +6,12 @@
 @import url("./styles/home/section-depoimento.css");
 @import url("./styles/home/section-seguro.css");
 
+
+/* seguros */
+@import url("./styles/seguro/seguros.css");
+@import url("./styles/seguro/vantagens.css");
+@import url("./styles/seguro/perguntas.css");
+
 /* Termos */
 @import url("./styles/termos/termos.css");
 

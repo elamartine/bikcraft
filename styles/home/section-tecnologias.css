@@ -29,6 +29,10 @@
 .tecnologias a{
   border-bottom: 4px solid var(--cor-p1);
 }
+.conteiner-tec a:hover{
+  color: var(--cor-1);
+  border-bottom: 4px solid var(--cor-1);
+}
 
 .tecnologias img{
   width: 560px;

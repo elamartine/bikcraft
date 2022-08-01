@@ -1,0 +1,17 @@
+.conteiner-vantagens{
+  padding-top: 120px;
+ 
+}
+.lista-vantagens{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 172px;
+  padding-bottom: 120px;
+}
+.lista-vantagens h3{
+  margin-top: 8px;
+}
+.lista-vantagens p{
+  margin-top: 8px;
+}

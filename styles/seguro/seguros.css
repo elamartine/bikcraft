@@ -1,0 +1,31 @@
+.conteiner-seguro-2{
+  padding-top: 60px;
+}
+.planos{
+  padding-bottom: 120px;
+}
+.seguro-itens li::before{
+  content: "";
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -21px;
+}
+#seguros .main-seguros{
+  box-shadow: none;
+}
+#seguros .seguros {
+  padding-top: 0px;
+}
+.titulo-bj{
+  grid-column: 1 /-1;
+}
+ #seguros .lista-header #seguros-2:after {
+    content: "";
+    display: block;
+    background-color: var(--cor-p1);
+    width: auto;
+    height: 2px;
+    margin-top: 4px;
+}
