@@ -7,6 +7,12 @@
 @import url("./styles/home/section-seguro.css");
 
 
+/* Contatos */
+@import url("./styles/contato/contato.css");
+
+/* bicicletas */
+@import url("./styles/bicicletas/bicicletas.css");
+
 /* seguros */
 @import url("./styles/seguro/seguros.css");
 @import url("./styles/seguro/vantagens.css");

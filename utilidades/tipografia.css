@@ -19,6 +19,12 @@
     line-height: 1.35;
     text-transform: uppercase;
   }
+  .font-1-ls{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.35;
+  }
 
   .font-2-xl{
     font-family: "Roboto";
@@ -41,7 +47,7 @@
   }
   .font-2-m{
     font-family: "Roboto";
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.35;
   }
@@ -55,6 +61,20 @@
   .font-2-ss{
     font-family: 'Roboto';
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .font-1-m{
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .font-1-ms{
+    font-family: "poppins";
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
   }
