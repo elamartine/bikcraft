@@ -3,9 +3,11 @@
   background-color: var(--cor-12);
   border-radius: 4px;
   width: auto;
+  box-sizing: border-box;
 }
 .conteiner-forms{
  background-color: #fff;
+ box-sizing: border-box;
 }
 .main-contato{
   background-color: #111;
@@ -146,5 +148,11 @@ input[type=tel] {
   }
   #contato .bnt{
     margin-bottom: 20px;
+  }
+  .conteudo-contato{
+    padding: 30px;
+  }
+  .forms-contato{
+    padding: 30px;
   }
 }
