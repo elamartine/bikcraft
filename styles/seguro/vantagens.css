@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  margin-top: 172px;
+  margin-top: 92px;
   padding-bottom: 120px;
 }
 .lista-vantagens h3{
@@ -14,4 +14,15 @@
 }
 .lista-vantagens p{
   margin-top: 8px;
+}
+@media (max-width: 800px){
+  .lista-vantagens{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px){
+  .lista-vantagens{
+    grid-template-columns: 1fr;
+  }
 }
