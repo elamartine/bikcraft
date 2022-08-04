@@ -139,11 +139,18 @@ margin-top: 32px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: baseline;
-  }
+  } 
+  
   .conteudo-lista #bnt-bicicletas{
     grid-row: 4;
     grid-column: 1;
     margin-top: 32px;
     justify-self: flex-start;    
+  }
+}
+@media(max-width:500px){
+  .lista-qualidades img{
+    width: 20px;
+    height: 20px;
   }
 }

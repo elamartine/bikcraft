@@ -112,6 +112,17 @@
     font-size: 24px;
   }
 }
+@media (max-width: 500px){
+  #bicicletas .font-1-ls{
+  font-size: 24px;
+  }
+  #bicicletas .font-2-m {
+    font-size: 16px;
+  }
+  #bicicletas .font-1-m {
+    font-size: 16px;
+  }
+}
 
 @media (max-width: 400px) {
   .font-2-l-b {
