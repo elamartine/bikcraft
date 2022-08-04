@@ -9,6 +9,7 @@
 
 /* Contatos */
 @import url("./styles/contato/contato.css");
+@import url("./styles/contato/locais.css");
 
 /* bicicletas */
 @import url("./styles/bicicletas/bicicletas.css");
