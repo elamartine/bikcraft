@@ -15,7 +15,7 @@
 @import url("./styles/bicicletas/bicicletas.css");
 
 /* bicicletas internas */
-@import url("./styles/bicicletas-internas/nimbus.css");
+@import url("./styles/bicicletas/bicicletas-internas.css");
 
 /* seguros */
 @import url("./styles/seguro/seguros.css");
