@@ -25,6 +25,13 @@
   font-size: 36px;
   line-height: 1.35;
 }
+.font-2-ml {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  
+}
 
 .font-2-xl {
   font-family: "Roboto";
@@ -45,12 +52,20 @@
   font-size: 24px;
   line-height: 1.35;
 }
+.font-1-m-bb {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+}
 .font-2-m {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
 }
+
 .font-2-s {
   font-family: "Roboto";
   text-transform: lowercase;
@@ -85,12 +100,29 @@
   font-size: 16px;
   line-height: 1.5;
 }
+.font-2-mss {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
 .font-1-mssm {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+}
+.font-1-sss {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 133%;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
 }
 
 @media (max-width: 1100px) {
@@ -103,6 +135,9 @@
   .font-1-xxl {
     font-size: 48px;
   }
+  .font-1-sss{
+    font-size: 12px;
+  }
 }
 @media (max-width: 800px) {
   .font-1-xxl {
@@ -111,10 +146,13 @@
   .font-1-l {
     font-size: 24px;
   }
+  #nimbus .font-2-ml{
+    text-transform: uppercase;
+  }
 }
-@media (max-width: 500px){
-  #bicicletas .font-1-ls{
-  font-size: 24px;
+@media (max-width: 500px) {
+  #bicicletas .font-1-ls {
+    font-size: 24px;
   }
   #bicicletas .font-2-m {
     font-size: 16px;
@@ -122,7 +160,7 @@
   #bicicletas .font-1-m {
     font-size: 14px;
   }
-  .lista-qualidades{
+  .lista-qualidades {
     gap: 20px;
   }
 }
