@@ -46,4 +46,7 @@ margin-top: 60px;
   .lojas{
     grid-template-columns: 1fr;
   }
+  .conteudo-locais{
+    padding: 16px 30px;
+  }
 }
