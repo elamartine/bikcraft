@@ -13,23 +13,37 @@ margin-top: 60px;
 .lojas{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   gap: 40px;
 }
 
 .lista-locais{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 74px;
-  margin-top: 32px;
-  
-}
-.lista-locais li{
+  display: flex;
+  flex-direction: column;
   border-left: 2px solid var(--cor-5);
+}
+.lista-locais p{
   padding-left: 10px;
 }
+.dados-contato{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
 .horario{
   display: flex;
   align-items: center;
   margin-top: 32px;
+  gap: 8px;
+}
+@media (max-width: 800px){
+  .dados-contato{
+    grid-template-columns: 1fr;
+  }
+  .lojas{
+    grid-template-columns: 1fr;
+  }
 }
