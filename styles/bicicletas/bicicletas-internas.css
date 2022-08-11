@@ -5,15 +5,17 @@
   padding-top: 60px;
   overflow: hidden;
 }
-.img-nimbus{
+.img-nimbus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   height: fit-content;
 }
-.nimbus1{
+.nimbus1 {
   grid-column: 1/-1;
 }
+
+
 
 .comprar-bicicleta{
   display: grid;
@@ -84,6 +86,7 @@
   margin-bottom: 120px;
 }
 
+
 .section-direction-seguro{
   box-shadow: inset 0 90px var(--cor-0), inset 0 -90px var(--cor-12); 
 }
@@ -110,6 +113,12 @@
   }
   .bicicletas-conteudo{
     grid-row: 1;
+  }
+  .direction-seguro{
+    grid-template-columns: 1fr;
+  }
+  .conteudo-direction-seguro h1{
+    padding-top: 30px;
   }
 }
 @media (max-width: 400px){

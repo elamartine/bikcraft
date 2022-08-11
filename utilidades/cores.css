@@ -8,6 +8,9 @@
   .cinza-8{
     color: var(--cor-8);
   }
+  .cor-11{
+    color: var(--cor-11);
+  }
   .background-cinza{
     background-color: #F7F7F7;
   }

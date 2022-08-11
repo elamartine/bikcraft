@@ -40,6 +40,7 @@
   background-image: url("../img/icones/lista.svg");
   position: absolute;
   left: -21px;
+  top: 8px;
 }
 
 .seguro-itens span{
