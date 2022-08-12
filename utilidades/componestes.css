@@ -60,6 +60,11 @@
   font-size: 20px;
   text-align: left;
 }
+@media (max-width: 1200px) {
+  .titulo-bg{
+    padding-left: 20px;
+  }
+}
 @media (max-width: 800px) {
   .titulo-bg {
     padding-top: 40px;
