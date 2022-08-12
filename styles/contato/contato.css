@@ -158,6 +158,13 @@ input[type=tel] {
     padding: 30px;
   }
   .forms-contato{
-    padding: 30px;
+    padding: 0px;
+    grid-template-columns: 1fr;
+  }
+  .forms-contato .forms-iten-4{
+    grid-row: 4;
+  }
+  .conteiner-forms{
+    padding: 24px;
   }
 }
