@@ -1,31 +1,31 @@
-.section-locais img{
-margin-top: 60px;
+.section-locais img {
+  margin-top: 60px;
 }
-.conteudo-locais{
+.conteudo-locais {
   background-color: #fff;
   padding: 32px 60px;
 }
-.horario img{
+.horario img {
   width: 20px;
   height: 20px;
   margin-top: 0px;
 }
-.lojas{
+.lojas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 120px;
   gap: 40px;
 }
 
-.lista-locais{
+.lista-locais {
   display: flex;
   flex-direction: column;
   border-left: 2px solid var(--cor-5);
 }
-.lista-locais p{
+.lista-locais p {
   padding-left: 10px;
 }
-.dados-contato{
+.dados-contato {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
@@ -33,20 +33,20 @@ margin-top: 60px;
   margin-top: 32px;
 }
 
-.horario{
+.horario {
   display: flex;
   align-items: center;
   margin-top: 32px;
   gap: 8px;
 }
-@media (max-width: 800px){
-  .dados-contato{
+@media (max-width: 800px) {
+  .dados-contato {
     grid-template-columns: 1fr;
   }
-  .lojas{
+  .lojas {
     grid-template-columns: 1fr;
   }
-  .conteudo-locais{
+  .conteudo-locais {
     padding: 16px 20px;
   }
 }

@@ -6,7 +6,6 @@
 @import url("./styles/home/section-depoimento.css");
 @import url("./styles/home/section-seguro.css");
 
-
 /* Contatos */
 @import url("./styles/contato/contato.css");
 @import url("./styles/contato/locais.css");
@@ -37,7 +36,6 @@
 @import url("./utilidades/componestes.css");
 @import url("./utilidades/cores.css");
 @import url("./utilidades/tipografia.css");
-
 
 :root {
   --cor-0: #ffffff;

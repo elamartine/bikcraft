@@ -1,4 +1,4 @@
-.seguros{
+.seguros {
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
@@ -6,10 +6,10 @@
   gap: 40px;
   align-items: center;
 }
-.seguros h2{
+.seguros h2 {
   grid-column: 1/-1;
 }
-.seguro-itens{
+.seguro-itens {
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-12);
@@ -17,23 +17,23 @@
   border-radius: 5px;
 }
 
-.seguro-itens ul{
+.seguro-itens ul {
   grid-column: 1/-1;
   margin-top: 40px;
   margin-bottom: 32px;
 }
 
-.seguro-itens li + li{
+.seguro-itens li + li {
   margin-top: 20px;
 }
-.seguro-itens li{
+.seguro-itens li {
   position: relative;
   align-items: center;
 }
-.seguro-itens a{
+.seguro-itens a {
   grid-column: 1/-1;
 }
-.seguro-itens li::before{
+.seguro-itens li::before {
   content: "";
   width: 13px;
   height: 9px;
@@ -43,27 +43,25 @@
   top: 8px;
 }
 
-.seguro-itens span{
+.seguro-itens span {
   display: grid;
   text-align: right;
 }
 
-@media (max-width: 800px){
-  .seguros{
+@media (max-width: 800px) {
+  .seguros {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 600px){
-    a.bnt.font-1-m-b{
+@media (max-width: 600px) {
+  a.bnt.font-1-m-b {
     padding: 12px 16px;
     font-size: 18px;
   }
 }
-@media (max-width: 600px){
-  a.bnt-2.font-1-m-b{
-  padding: 12px 16px;
-  font-size: 18px;
+@media (max-width: 600px) {
+  a.bnt-2.font-1-m-b {
+    padding: 12px 16px;
+    font-size: 18px;
+  }
 }
-}
-
-

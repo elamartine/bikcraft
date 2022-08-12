@@ -55,9 +55,8 @@
   width: 17px;
 }
 
-@media (max-width: 800px){
-  .conteiner-escolha{
-      margin-bottom: 0px;
+@media (max-width: 800px) {
+  .conteiner-escolha {
+    margin-bottom: 0px;
   }
-
 }

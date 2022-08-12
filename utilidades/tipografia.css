@@ -30,7 +30,6 @@
   font-weight: 500;
   font-size: 36px;
   line-height: 1.5;
-  
 }
 
 .font-2-xl {
@@ -135,7 +134,7 @@
   .font-1-xxl {
     font-size: 48px;
   }
-  .font-1-sss{
+  .font-1-sss {
     font-size: 12px;
   }
 }
@@ -146,7 +145,7 @@
   .font-1-l {
     font-size: 24px;
   }
-  #nimbus .font-2-ml{
+  #nimbus .font-2-ml {
     text-transform: uppercase;
   }
 }

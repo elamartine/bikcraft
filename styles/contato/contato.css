@@ -1,22 +1,22 @@
 #contato main {
-  box-shadow: inset 0 -450px #f7f7f7 ;
+  box-shadow: inset 0 -450px #f7f7f7;
 }
-.main-contato{
+.main-contato {
   padding-bottom: 120px;
 }
-.conteudo-contato{
+.conteudo-contato {
   padding: 60px;
   background-color: var(--cor-12);
   border-radius: 4px;
   width: auto;
   box-sizing: border-box;
 }
-.conteiner-forms{
- background-color: #fff;
- box-sizing: border-box;
+.conteiner-forms {
+  background-color: #fff;
+  box-sizing: border-box;
 }
-.main-contato{
-  background-color:#111;
+.main-contato {
+  background-color: #111;
 }
 .bg {
   display: grid;
@@ -24,13 +24,12 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
-.conteudo-contato h4{
+.conteudo-contato h4 {
   grid-column: 1;
   grid-row: 1;
 }
 
-.conteudo-contato ul{
+.conteudo-contato ul {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -39,99 +38,95 @@
   grid-row: 1;
 }
 
-.conteudo-contato li{
+.conteudo-contato li {
   display: flex;
   align-items: flex-start;
   gap: 8px;
 }
 
-.redes-contato{
-    display: flex;
-    gap: 32px;
-    grid-column: 1;
-    grid-row: 2;
-  
+.redes-contato {
+  display: flex;
+  gap: 32px;
+  grid-column: 1;
+  grid-row: 2;
 }
-.redes-contato img{
+.redes-contato img {
   width: 32px;
   height: 32px;
   margin-top: 60px;
 }
 
-.conteudo-contato-2 .forms-contato{
-display: grid;
-grid-template-columns: 1fr 1fr;
-
+.conteudo-contato-2 .forms-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-#contato .bnt{
+#contato .bnt {
   margin-bottom: 60px;
   grid-column: 1/-1;
 }
 .forms-iten-1,
 .forms-iten-2,
 .forms-iten-3,
-.forms-iten-4
-{
+.forms-iten-4 {
   display: flex;
   flex-direction: column;
 }
-.forms-email{
+.forms-email {
   grid-column: 1/-1;
 }
-.forms-contato{
+.forms-contato {
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-.forms-contato .email{
+.forms-contato .email {
   grid-row: 1/-1;
   width: 100%;
 }
-.forms-contato .forms-iten-4{
+.forms-contato .forms-iten-4 {
   grid-row: 3;
 }
-.forms-iten-4{
+.forms-iten-4 {
   grid-column: 1/-1;
 }
-.forms-iten-3{
+.forms-iten-3 {
   grid-column: 1/-1;
 }
 
-
-input[type=text] {
+input[type="text"] {
   width: 100%;
   height: 48px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 4px;
   background-color: #f8f8f8;
 }
-input[type=email]{
+input[type="email"] {
   width: 100%;
   height: 48px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 4px;
   background-color: #f8f8f8;
 }
-input[type=tel] {
+input[type="tel"] {
   width: 100%;
   height: 48px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   background-color: #f8f8f8;
   border-radius: 4px;
 }
- textarea{
+textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 4px;
   margin: 8px 0;
   background-color: #f8f8f8;
@@ -146,24 +141,24 @@ input[type=tel] {
   margin-top: 4px;
 }
 
-@media (max-width: 800px){
-  .bg{
+@media (max-width: 800px) {
+  .bg {
     grid-template-columns: 1fr;
   }
-  #contato .bnt{
+  #contato .bnt {
     margin-bottom: 20px;
   }
-  .conteudo-contato{
+  .conteudo-contato {
     padding: 30px;
   }
-  .forms-contato{
+  .forms-contato {
     padding: 0px;
     grid-template-columns: 1fr;
   }
-  .forms-contato .forms-iten-4{
+  .forms-contato .forms-iten-4 {
     grid-row: 4;
   }
-  .conteiner-forms{
+  .conteiner-forms {
     padding: 24px;
   }
 }
