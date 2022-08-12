@@ -20,6 +20,9 @@
   padding: 60px 40px 40px;
   border-radius: 0px 5px 5px 0px;
 }
+.titulo-orcamento{
+  grid-column: 1/-1;
+}
 .conteiner-forms-orcamento {
   grid-column: 1/-1;
   margin-top: 60px;
@@ -234,7 +237,7 @@ border-radius: 4px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 20px;
-
+  border-radius: 4px;
 }
 .orcamento-detalhe li{
   display: flex;
@@ -272,6 +275,12 @@ border-radius: 4px;
   }
   .formulario-orcamento{
     padding-top: 60px;
+  }
+  .forms-orcamento{
+    grid-template-columns: 1fr;
+  }
+  .formulario-orcamento{
+    padding-bottom: 60px;
   }
 }
 @media (max-width: 400px){

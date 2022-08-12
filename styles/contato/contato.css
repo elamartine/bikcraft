@@ -83,7 +83,6 @@ grid-template-columns: 1fr 1fr;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding: 60px;
 }
 .forms-contato .email{
   grid-row: 1/-1;
