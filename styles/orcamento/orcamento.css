@@ -42,7 +42,7 @@
   background-color: var(--cor-p1);
   display: inline-block;
   align-items: center;
-  box-sizing: border-box;
+  
 }
 .orcamento-dados h2::before {
   content: "";
@@ -61,8 +61,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-content: flex-start;
-    
-    
+    box-sizing: border-box;
 }
 
 .produtos-orcamento  label {
