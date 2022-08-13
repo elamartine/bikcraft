@@ -42,6 +42,7 @@
   left: -21px;
   top: 8px;
   display: inline-block;
+  z-index: 999;
 }
 
 .seguro-itens span {
