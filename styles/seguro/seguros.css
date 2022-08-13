@@ -11,6 +11,7 @@
   background-image: url("../../img/icones/lista.svg");
   position: absolute;
   left: -21px;
+  display: inline-block;
 }
 #seguros .main-seguros{
   box-shadow: none;
