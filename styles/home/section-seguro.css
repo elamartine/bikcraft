@@ -33,7 +33,7 @@
 .seguro-itens a {
   grid-column: 1/-1;
 }
-.seguro-itens li::before {
+.seguro-itens li::after {
   content: "";
   width: 13px;
   height: 9px;
