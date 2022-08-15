@@ -4,16 +4,11 @@
 .planos{
   padding-bottom: 120px;
 }
-.seguro-itens li::before{
-  content: "";
-  width: 13px;
-  height: 9px;
-  background-image: url("../../img/icones/lista.svg");
-  position: absolute;
-  left: -21px;
-  display: inline-block;
-  z-index: 1;
+.seguro-itens li{
+  display: flex;
+  gap: 8px;
 }
+
 #seguros .main-seguros{
   box-shadow: none;
 }

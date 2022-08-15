@@ -9,17 +9,8 @@ header {
   padding: 20px;
   flex-wrap: wrap;
 }
-.lista-header{
-  position: relative;
-}
-.lista-header li::before{
-  content: "";
-  width: 13px;
-  height: 9px;
-  background-image: url("../../img/icones/lista.svg");
-  position: absolute;
-  left: -21px;
-}
+
+
 
 .lista-header a {
   color: var(--text-1);
