@@ -7,6 +7,10 @@
 }
 .perguntas dd{
   max-width: 80ch;
+  display: none;
+}
+.perguntas dt.abrir + dd {
+  display: block;
 }
 .perguntas dt {
   padding-bottom: 16px;
