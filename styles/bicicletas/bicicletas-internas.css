@@ -11,8 +11,11 @@
   gap: 20px;
   height: fit-content;
 }
-.nimbus1 {
+.img-nimbus img:first-child{
   grid-column: 1/-1;
+}
+.img-nimbus img{
+  cursor: pointer;
 }
 
 .comprar-bicicleta {
@@ -100,6 +103,9 @@
 @media (max-width: 1000px) {
   .img-nimbus {
     grid-template-columns: 1fr;
+  }
+  .img-nimbus img{
+    cursor: auto;
   }
 }
 @media (max-width: 800px) {

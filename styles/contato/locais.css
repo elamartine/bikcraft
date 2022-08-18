@@ -10,6 +10,9 @@
   height: 20px;
   margin-top: 0px;
 }
+.section-locais .conteiner h2{
+  margin-bottom: 60px;
+}
 .lojas {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,6 +42,23 @@
   margin-top: 32px;
   gap: 8px;
 }
+
+.maps{
+  position: relative;
+  width: 560px;
+  height: 260px;
+  background-color: #fff;
+}
+.maps iframe{
+  width: 100%;
+  height: 100%;
+  
+}
+.local{
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 800px) {
   .dados-contato {
     grid-template-columns: 1fr;
